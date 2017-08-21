@@ -138,10 +138,12 @@ loadingState = 'loading'
 do ->
   editorStates = new EditorStates(
     CodeMirror.fromTextArea($('#editor')[0],
+      keyMap: 'vim'
+      showCursorWhenSelecting: true
       mode: 'gfm'
       theme: 'marp'
       lineWrapping: true
-      lineNumbers: false
+      lineNumbers: true
       dragDrop: false
       extraKeys:
         Enter: 'newlineAndIndentContinueMarkdownList'

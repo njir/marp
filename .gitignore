@@ -50,3 +50,7 @@ docs/Gemfile.lock
 docs/.sass-cache/
 docs/_site/
 docs/_drafts/
+
+# Added by njir
+Release.key
+.c9/
