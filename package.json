@@ -1,10 +1,10 @@
 {
-  "name": "Marp",
-  "version": "0.0.11",
+  "name": "Marp-vim",
+  "version": "0.0.1-vim",
   "description": "Markdown Presentation Writer (Powered by Electron)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yhatt/marp"
+    "url": "https://github.com/njir/marp"
   },
   "main": "main.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Yuki Hattori",
+  "author": "Hyungtak Jin",
   "license": "MIT",
   "devDependencies": {
     "coffee-script": "^1.10.0",

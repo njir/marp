@@ -11,6 +11,7 @@ require 'codemirror/mode/xml/xml'
 require 'codemirror/mode/markdown/markdown'
 require 'codemirror/mode/gfm/gfm'
 require 'codemirror/addon/edit/continuelist'
+require 'codemirror/keymap/vim'
 
 class EditorStates
   rulers: []
@@ -138,6 +139,8 @@ loadingState = 'loading'
 do ->
   editorStates = new EditorStates(
     CodeMirror.fromTextArea($('#editor')[0],
+      keyMap: 'vim'
+      showCursorWhenSelecting: true
       mode: 'gfm'
       theme: 'marp'
       lineWrapping: true
