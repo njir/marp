@@ -144,7 +144,7 @@ do ->
       mode: 'gfm'
       theme: 'marp'
       lineWrapping: true
-      lineNumbers: true
+      lineNumbers: false
       dragDrop: false
       extraKeys:
         Enter: 'newlineAndIndentContinueMarkdownList'
